@@ -1,0 +1,16 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+//Cores
+@import "./cores/variables";
+@import "./cores/colors";
+@import "./cores/base";
+@import "./cores/buttons.scss";
+
+//Sections
+@import "./sections/MainMenuSection";
+@import "./sections/ProductGridSektion";
+@import "./sections/BreadcrumbSection";
+@import "./sections/MapSection";
+@import "./sections/ContactFormSection";
+@import "./sections/FooterSection";
