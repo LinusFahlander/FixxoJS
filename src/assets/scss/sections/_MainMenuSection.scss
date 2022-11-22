@@ -1,3 +1,8 @@
+nav {
+    background: rgb(230,230,230);
+    background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(245,245,245,1) 100%);
+}
+
 .mainmenu {
     display: grid;
     padding-top: 10px;
@@ -5,7 +10,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "logo menuicons"
                             "menulinks menulinks";
-
+                        
     .logo {
         grid-area: logo;
         font-size: 35px;

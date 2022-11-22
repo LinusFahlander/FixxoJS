@@ -1,0 +1,19 @@
+.commercial-banners {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding: 0;
+
+    img {
+        max-width:100%;
+    }
+
+    .left-banner {
+        padding-right: 15px;
+    }
+
+    .right-banner {
+        padding-left: 15px;
+    }
+
+}

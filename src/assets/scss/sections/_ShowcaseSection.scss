@@ -1,0 +1,31 @@
+.showcase {
+    background: rgb(230,230,230);
+    background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(245,245,245,1) 100%);
+    padding-top: 100px;
+
+
+    .container {
+        max-width: 1680px;
+        display: flex;
+        align-items: center;
+
+        img{
+            max-width: 380px;
+        }
+
+        .showcase-info {
+            text-align: center;
+
+            h1 {
+                font-size: 65px;
+                font-weight: 800;
+            }
+
+            p {
+                margin-top: 40px;
+                margin-bottom: 40px;
+                font-size: 20px;
+            }
+        }
+    }
+}

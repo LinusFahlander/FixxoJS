@@ -6,11 +6,15 @@
 @import "./cores/colors";
 @import "./cores/base";
 @import "./cores/buttons.scss";
+@import "./sections/Utilities";
 
 //Sections
 @import "./sections/MainMenuSection";
+@import "./sections/ShowcaseSection";
 @import "./sections/ProductGridSektion";
 @import "./sections/BreadcrumbSection";
 @import "./sections/MapSection";
 @import "./sections/ContactFormSection";
+@import "./sections/BannerCommercialSection";
 @import "./sections/FooterSection";
+
