@@ -1,25 +1,23 @@
 .support-badges {
     display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0;
 
     .sup-badge {
+        margin: 0 20px 0 20px;
 
-        img {
-
-        }
-
-        h1 {
-            font-size: 20px;
-            font-weight: 700;
-        }
-
-        p {
-            font-size: 16;
-            font-weight: 400;
-        }
     }
 
+    h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
 
+    p {
+        font-size: 16;
+        font-weight: 400;
+    }
 }
