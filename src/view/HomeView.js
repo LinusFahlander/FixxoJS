@@ -6,6 +6,7 @@ import BannerGridSection from '../sections/BannerGridSection'
 import { ProductContext } from '../contexts/contexts'
 import ShowcaseSection from '../sections/ShowcaseSection'
 import BannerCommercialSection from '../sections/BannerCommercialSection'
+import SupportBadgeSection from '../sections/SupportBadgeSection'
 
 const HomeView = () => {
   window.top.document.title = 'Fixxo.'
@@ -18,6 +19,7 @@ const HomeView = () => {
       <ProductGridSection title="Featured Products" items={productContext.featuredProducts} />
       <BannerCommercialSection />
       <BannerGridSection title="" items={productContext.gridProducts} />
+      <SupportBadgeSection />
       <FooterSection />
     </>
   )
